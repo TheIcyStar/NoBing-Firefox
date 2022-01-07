@@ -8,10 +8,8 @@
       "16": "icons/icon16.png",
       "48": "icons/icon48.png"
    },
-   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkjiOe2mEcM5ESPEL2O1mcEogUyoa+zDxYinBJ2BUTygvlnYL0y9cJ0ONawSN9AmTv6V5/IUMqrmO2FImFnsF+h0yUQZRL+U+8lS7g4gKZMBWvWp/1Y3wfGYouhLMkzIItXp1HxA+OjsTQNKHV185M5y4GExEWRgLjGtqLiBmz+zOu179k3p1vcAp0bV2dt1GKveJrCS2/AVjDnBCbgUQ4himohu2up1257D+xanKjoH+KNpu0ruKpX2OjaN7zMNxFDyxXN0V7fEffbqY7N4IWttrN6I/u3cYi53AQzJXq5K4IYqLu88hDZFALOw5ev5oFphRBZbboX+KioSE3n9O9wIDAQAB",
    "manifest_version": 2,
    "name": "NoBing",
-   "permissions": [ "webRequest", "http://www.bing.com/search*", "https://www.bing.com/search*", "https://m.bing.com/search*", "http://m.bing.com/search*" ],
-   "update_url": "http://clients2.google.com/service/update2/crx",
-   "version": "1.3"
+   "permissions": [ "webRequest", "webRequestBlocking", "http://www.bing.com/search*", "https://www.bing.com/search*", "https://m.bing.com/search*", "http://m.bing.com/search*" ],
+   "version": "1.4"
 }
